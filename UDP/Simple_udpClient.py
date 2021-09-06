@@ -1,5 +1,5 @@
 from socket import *
-serverName = "192.168.0.142" #127.0.0.1 IPv4 // ::1 IPv6
+serverName = "192.168.0.143" #127.0.0.1 IPv4 // ::1 IPv6
 serverPort = 12500
 clientSocket = socket(AF_INET, SOCK_DGRAM)
 print("UDP Client\n")

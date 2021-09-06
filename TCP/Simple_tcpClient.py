@@ -1,5 +1,5 @@
 from socket import *
-serverName = "192.168.0.142"
+serverName = "192.168.0.143"
 serverPort = 27123
 clientSocket = socket(AF_INET, SOCK_STREAM)
 clientSocket.connect((serverName,serverPort))
